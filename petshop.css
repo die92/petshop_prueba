@@ -1,0 +1,369 @@
+ *{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+ }
+.comederos{
+    background-color: black;
+    color:white;
+    position: relative;
+    line-height: 5px;
+    
+}
+.comederos p{
+    color: white;
+    text-align: left;
+    position: relative;
+    left: 110px;
+    line-height: 8px;
+    top: 4px;
+    
+}
+.lista {
+    display: flex;
+    justify-content:flex-end;
+    position: relative;
+    margin:  0 10px;
+    bottom: 5px;
+    
+    
+    
+}
+.lista a{
+    position: relative;
+    text-decoration: none;
+    color: white;
+    margin: 5px;
+    bottom: 5px;
+    right: 110px;
+}
+.barra{
+    background-color: rgb(230, 160, 75);
+    display: flex;
+    justify-content:right;
+    height: 70px;
+    
+}
+.menu_lista {
+    display: flex;
+    position: relative;
+    right: 40px; 
+    top: 7px;
+    
+}
+.menu_lista a{
+    position: relative;
+    text-decoration: none;
+    color: white;
+    margin: 10px;
+    font-size: 25px;
+}
+
+.imagen {
+    position: relative;
+    right: 680px;
+    top: 15px;
+    
+
+}
+.imagen img{
+    height: 35px;
+}
+.principal{
+    display: flex;
+    justify-content: space-around;
+    position: relative;
+    background: url("plato\ grande.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 500px;
+}
+.textos{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    position: relative;
+    left: 400px;
+    top: 200px;
+    
+}
+.textos h1{
+    font-size: 35px;
+    background-color: white;
+    padding: 10px;
+    border-radius: 5px;
+    margin: 10px;
+}
+.textos h5{
+    font-size: 20px;
+    margin: 5px;
+}
+.textos a{
+    text-decoration: none;
+    font-size: 30px;
+    background-color: rgb(230, 160, 75);
+    color: white;
+    padding: 10px;
+    margin: 10px;
+    border-radius: 5px;
+}
+.subtitulo{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    
+}
+
+
+.imagen_patita{
+    position: relative;
+    height: 90px;
+    width: 90px;
+    left: 10px;
+}
+.titulo2 h2{
+    font-size: 50px;
+    margin-bottom: 20px;
+}
+.enlaces a{
+    text-decoration: none;
+    font-size: 20px;
+    margin: 20px;
+}
+.vidriera{
+    display: flex;
+    justify-content: space-around;
+    margin: 20px;
+}
+.churrasco{
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    align-items: center;
+}
+.churrasco img{
+    position: relative;
+    height: 350px;
+}
+.churrasco h5{
+    position: relative;
+    bottom: 70px;
+    font-size: 20px;
+}
+.churrasco a{
+    position: relative;
+    bottom: 65px;
+    font-size: 20px;
+    text-decoration: none;
+    color: rgb(230, 160, 75);
+
+}
+.comida_perro{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.comida_perro img{
+    position: relative;
+    height: 350px;
+}
+.comida_perro h5{
+    position: relative;
+    bottom:70px ;
+    font-size: 20px;
+}
+.comida_perro a{
+    position: relative;
+    bottom: 65px;
+    font-size: 20px;
+    text-decoration: none;
+    color:rgb(230, 160, 75) ;
+}
+.huesito{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.huesito img{
+    position: relative;
+    height: 350px;
+}
+.huesito h5{
+    position: relative;
+    bottom: 70px;
+    font-size: 20px;
+}
+.huesito a{
+    position: relative;
+    bottom: 65px;
+    font-size: 20px;
+    text-decoration: none;
+    color: rgb(230, 160, 75);
+}
+.contacto{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.info{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.info h3{
+    font-size: 25px;
+    margin: 20px;
+} 
+.info input{
+    position: relative;
+    width: 450px;
+    padding: 10px;
+    border-radius: 10px;
+    margin: 3px;
+    background-color: rgb(43, 15, 15);
+    color: white;
+}
+.botones{
+    margin: 20px;
+}
+.botones .resetear{
+    position: relative;
+    border-radius: 10px;
+    border-style: none;
+    width: 100px;
+    height: 30px;
+    background-color: rgb(74, 73, 72);
+    color: white;
+}
+.botones .enviar{
+    position: relative;
+    border-radius: 10px;
+    border-style: none;
+    width: 100px;
+    height: 30px;
+    background-color: rgb(230, 160, 75);
+    color: white;
+}
+.suscripcion{
+    position: relative;
+    display: flex;
+    background-color: rgb(230, 160, 75);
+    justify-content: center;
+}
+.sobre{
+    display: flex;
+    justify-content: left;
+    position: relative;
+    right: 450px;
+    top: 25px;
+
+}
+.sobre img{
+    position: relative;
+    left: 20px;
+    margin: 10px;
+
+}
+.sobre h4{
+    position: relative;
+    left: 30px;
+    margin: 5px;
+    font-size: 30px;
+    color: white;
+}
+.datos{
+    display: flex;
+    justify-content: right;
+    position: relative;
+    left: 500px;
+    bottom: 10px;
+}
+.datos .correo{
+    position: relative;
+    right: 80px;
+    bottom: 10px;
+    width: 300px;
+    height: 50px;
+    border-radius: 20px;
+    padding: 15px;
+    border-style: none;
+}
+.datos .suscribirse{
+    position: relative;
+    right: 75px;
+    bottom: 5px;
+    height: 40px;
+    border-radius: 10px;
+    padding: 10px;
+    border-style: none;background-color: rgb(43, 15, 15);
+    color: white;
+}
+.nuestra_info{
+    display: flex;
+    flex-direction: column;
+    padding: 85px;
+    background-color: rgb(43, 15, 15);
+}
+.localidad{
+    display: flex;
+    color: white;
+    margin: 25px;
+}
+.localidad h2{
+    position: relative;
+    font-size: 35px;
+    left: 25px;
+    top: 10px;
+}
+.localidad p{
+    position: relative;
+    top: 50px;
+    right: 110px;
+}
+.telefono{
+    display: flex;
+    color: white;
+    margin: 25px;
+}
+.telefono h2{
+    position: relative;
+    font-size: 35px;
+    left: 25px;
+    top: 10px;
+}
+.telefono p{
+    position: relative;
+    top: 50px;
+    right: 100px;
+}
+.mail{
+    display: flex;
+    color: white;
+    margin: 25px;
+}
+.mail h2{
+    position: relative;
+    font-size: 35px;
+    left: 25px;
+    top: 10px;
+}
+.mail p{
+    position: relative;
+    top: 50px;
+    right: 250px;
+}
+.logo_final{
+    display: flex;
+    justify-content: right;
+    position: relative;
+    bottom: 170px;
+    
+}
+footer{
+    background-color: black;
+    color: white;
+    display: flex;
+    justify-content: center;
+    font-size: 25px;
+
+}
