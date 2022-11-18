@@ -3,6 +3,7 @@
     margin: 0;
     padding: 0;
  }
+/*  barra negra  */
 .comederos{
     background-color: black;
     color:white;
@@ -37,6 +38,7 @@
     bottom: 5px;
     right: 110px;
 }
+/* barra naranja  */
 .barra{
     background-color: rgb(230, 160, 75);
     display: flex;
@@ -69,6 +71,7 @@
 .imagen img{
     height: 35px;
 }
+/* textos y plato grande del centro */
 .principal{
     display: flex;
     justify-content: space-around;
@@ -107,6 +110,7 @@
     margin: 10px;
     border-radius: 5px;
 }
+/* titulo y los tres enlaces en azul */
 .subtitulo{
     display: flex;
     flex-direction: column;
@@ -130,6 +134,7 @@
     font-size: 20px;
     margin: 20px;
 }
+/* las tres imagenes grandes  */
 .vidriera{
     display: flex;
     justify-content: space-around;
@@ -200,6 +205,7 @@
     text-decoration: none;
     color: rgb(230, 160, 75);
 }
+/* info de contacto , enviar y resetear  */
 .contacto{
     display: flex;
     flex-direction: column;
@@ -244,6 +250,7 @@
     background-color: rgb(230, 160, 75);
     color: white;
 }
+/* barra naranja de suscripcion */
 .suscripcion{
     position: relative;
     display: flex;
@@ -298,6 +305,7 @@
     border-style: none;background-color: rgb(43, 15, 15);
     color: white;
 }
+/* nuestra info "fondo marron" */
 .nuestra_info{
     display: flex;
     flex-direction: column;
@@ -359,6 +367,7 @@
     bottom: 170px;
     
 }
+/* pie de pagina */
 footer{
     background-color: black;
     color: white;
